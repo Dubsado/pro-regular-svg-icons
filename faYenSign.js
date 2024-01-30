@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'yen-sign';
-var width = 320;
+var width = 384;
 var height = 512;
-var aliases = [165,"cny","jpy","rmb","yen"];
+var ligatures = [];
 var unicode = 'f157';
-var svgPathData = 'M43.8 42.5c-7.5-11-22.4-13.8-33.3-6.4S-3.3 58.5 4.2 69.5L109.2 224H40c-13.3 0-24 10.7-24 24s10.7 24 24 24h96v48H40c-13.3 0-24 10.7-24 24s10.7 24 24 24h96v88c0 13.3 10.7 24 24 24s24-10.7 24-24V368h96c13.3 0 24-10.7 24-24s-10.7-24-24-24H184V272h96c13.3 0 24-10.7 24-24s-10.7-24-24-24H210.8L315.8 69.5c7.5-11 4.6-25.9-6.4-33.3s-25.9-4.6-33.3 6.4L160 213.3 43.8 42.5z';
+var svgPathData = 'M347.983 32h-44.065a12.001 12.001 0 0 0-10.555 6.291l-73.76 133.313c-13.96 29.825-27.286 64.725-27.286 64.725h-1.269s-13.326-34.901-27.287-64.725L90.689 38.328A12 12 0 0 0 80.115 32H36.017c-9.157 0-14.94 9.844-10.481 17.843L119.746 216H68c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h77.18l14.775 26.267V312H68c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h91.955v108c0 6.627 5.373 12 12 12h39.456c6.627 0 12-5.373 12-12V360H316c6.627 0 12-5.373 12-12v-24c0-6.627-5.373-12-12-12h-92.589v-21.733L238.185 264H316c6.627 0 12-5.373 12-12v-24c0-6.627-5.373-12-12-12h-52.367L358.45 49.87c4.485-7.999-1.296-17.87-10.467-17.87z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

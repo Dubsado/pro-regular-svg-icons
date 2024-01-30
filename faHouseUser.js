@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'house-user';
 var width = 576;
 var height = 512;
-var aliases = ["home-user"];
-var unicode = 'e1b0';
-var svgPathData = 'M303.5 5.7c-9-7.6-22.1-7.6-31.1 0l-264 224c-10.1 8.6-11.3 23.7-2.8 33.8s23.7 11.3 33.8 2.8L64 245.5V432c0 44.2 35.8 80 80 80H432c44.2 0 80-35.8 80-80V245.5l24.5 20.8c10.1 8.6 25.3 7.3 33.8-2.8s7.3-25.3-2.8-33.8l-264-224zM464 204.8V432c0 17.7-14.3 32-32 32H144c-17.7 0-32-14.3-32-32V204.8L288 55.5 464 204.8zM352 224a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 96c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H256z';
+var ligatures = [];
+var unicode = 'e065';
+var svgPathData = 'M570.61,240,512,187.37V56a24,24,0,0,0-24-24H392a24,24,0,0,0-24,24v2.08l-53.44-48C308.28,4.53,296.39,0,288,0s-20.28,4.53-26.56,10.09L5.39,240A18.21,18.21,0,0,0,0,252a18.47,18.47,0,0,0,4,10.61l10.62,12a18.15,18.15,0,0,0,12,5.37,18.54,18.54,0,0,0,10.63-4l26.75-24V472a40,40,0,0,0,40,40H472a40,40,0,0,0,40-40V251.85l26.75,24a16,16,0,0,0,22.59-1.33L572,262.59A18.47,18.47,0,0,0,576,252,18.21,18.21,0,0,0,570.61,240ZM464,464H416V448a96,96,0,0,0-96-96H256a96,96,0,0,0-96,96v16H112V208.76l176-158,176,158Zm0-319.72-48-43.1V80h48ZM224,256a64,64,0,1,0,64-64A64,64,0,0,0,224,256Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

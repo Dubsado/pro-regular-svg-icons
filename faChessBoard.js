@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'chess-board';
-var width = 448;
+var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f43c';
-var svgPathData = 'M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm128 0v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z';
+var svgPathData = 'M448 384v-64h-64v64zm0-127.93v-64h-64v64zM320.07 448h64v-64h-64zm-127.94 0h64v-64h-64zM64.2 256.1v64h64v-64zM448 64.2h-64v64h64zm-255.87 0h-64v64h64zm-127.93 64v64h64v-64zm255.87-64h-64v64h64zm-64 255.87v64h64v-64zm-64 0h-64v64h64zM384 192.13v-64h-64v64zm-64 127.94h64v-64h-64zm-64-127.94v-64h-64v64zm64 64v-64h-64v64zm-64 0h-64v64h64zm-64-64h-64v64h64zm-64 191.9H64v64h64zM480 0H32A32 32 0 0 0 0 32v448a32 32 0 0 0 32 32h448a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32zm-16 464H48V48h416z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

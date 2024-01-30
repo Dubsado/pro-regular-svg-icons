@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'prescription-bottle';
-var width = 384;
+var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f485';
-var svgPathData = 'M48 48H336V80H48V48zM40 0C17.9 0 0 17.9 0 40V88c0 22.1 17.9 40 40 40H344c22.1 0 40-17.9 40-40V40c0-22.1-17.9-40-40-40H40zM32 160V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V160H304V448c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V416h56c13.3 0 24-10.7 24-24s-10.7-24-24-24H80V320h56c13.3 0 24-10.7 24-24s-10.7-24-24-24H80V224h56c13.3 0 24-10.7 24-24s-10.7-24-24-24H80V160H32z';
+var svgPathData = 'M416 0H32C14.3 0 0 14.3 0 32v96c0 8.8 7.2 16 16 16h16v336c0 17.7 14.3 32 32 32h320c17.7 0 32-14.3 32-32V144h16c8.8 0 16-7.2 16-16V32c0-17.7-14.3-32-32-32zM48 48h352v48H48V48zm320 416H80v-40h88c4.4 0 8-3.6 8-8v-32c0-4.4-3.6-8-8-8H80v-48h88c4.4 0 8-3.6 8-8v-32c0-4.4-3.6-8-8-8H80v-48h88c4.4 0 8-3.6 8-8v-32c0-4.4-3.6-8-8-8H80v-40h288v320z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

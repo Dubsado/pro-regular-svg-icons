@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'caret-left';
-var width = 256;
+var width = 224;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f0d9';
-var svgPathData = 'M54.6 256L144 166.6l0 178.7L54.6 256zM9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-128 128z';
+var svgPathData = 'M224 367.952V144.057c0-42.638-51.731-64.151-81.941-33.941l-112 111.943c-18.745 18.745-18.746 49.137 0 67.882l112 111.952C172.208 432.042 224 410.675 224 367.952zM64 256l112-112v224L64 256z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'dreidel';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f792';
-var svgPathData = 'M441 39c9.4 9.4 9.4 24.6 0 33.9L327.6 186.3l67.7 67.7c18.7 18.7 18.7 49.1 0 67.9L256 461.3c-12 12-28.3 18.7-45.3 18.7H64c-35.3 0-64-28.7-64-64V269.3c0-17 6.7-33.3 18.7-45.3L158.1 84.7c18.7-18.7 49.1-18.7 67.9 0l67.7 67.7L407 39c9.4-9.4 24.6-9.4 33.9 0zM106.3 204.3L52.7 257.9c-3 3-4.7 7.1-4.7 11.3V416c0 8.8 7.2 16 16 16H210.7c4.2 0 8.3-1.7 11.3-4.7l53.7-53.7L106.3 204.3zm33.9-33.9L309.7 339.7 361.4 288 192 118.6l-51.7 51.7z';
+var svgPathData = 'M443.3 48L432 36.7c-6.2-6.2-16.4-6.2-22.6 0L294.7 151.4l-77.6-77.6c-6.5-6.5-15.1-9.8-23.6-9.8-8.6 0-17.1 3.3-23.6 9.8L19.6 224C7 236.5 0 253.5 0 271.3v141.8c0 37 29.9 66.9 66.9 66.9h141.8c17.7 0 34.7-7 47.3-19.6l150.2-150.2c13.1-13.1 13.1-34.2 0-47.3l-77.6-77.6L443.3 70.6c6.3-6.2 6.3-16.4 0-22.6zM222.1 426.5c-3.6 3.6-8.3 5.5-13.3 5.5H66.9c-10.4 0-18.9-8.5-18.9-18.9V271.3c0-5 2-9.8 5.5-13.3l53.2-53.2 168.5 168.5-53.1 53.2zm87.1-87.2L140.7 170.8l52.7-52.7L362 286.6l-52.8 52.7z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

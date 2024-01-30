@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'microscope';
 var width = 512;
 var height = 512;
-var aliases = [128300];
+var ligatures = [];
 var unicode = 'f610';
-var svgPathData = 'M192 0c-17.7 0-32 14.3-32 32c-17.7 0-32 14.3-32 32V288c0 17.7 14.3 32 32 32c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32c0-17.7-14.3-32-32-32H192zM176 272V80h64V272H176zM24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24H320 488c13.3 0 24-10.7 24-24s-10.7-24-24-24H447c39.9-35.2 65-86.7 65-144c0-106-86-192-192-192h0v48h0c79.5 0 144 64.5 144 144s-64.5 144-144 144h0H24zm72-56c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24s-10.7-24-24-24H120c-13.3 0-24 10.7-24 24z';
+var svgPathData = 'M476 464h-40.5c37.06-33.68 60.5-82.1 60.5-136 0-98.75-78.26-179.36-176-183.6V97.14c0-18.39-10.16-34.45-25.16-42.88V36.58c0-20.17-16.4-36.58-36.56-36.58H157.72c-20.16 0-36.56 16.41-36.56 36.58v17.69C106.16 62.69 96 78.75 96 97.14v197.72c0 22.02 14.56 40.7 34.56 46.94v37.62c0 20.17 16.41 36.58 36.59 36.58h81.69c20.19 0 36.59-16.41 36.59-36.58V341.8c20-6.23 34.56-24.92 34.56-46.94V192.81c71.21 4.23 128 62.95 128 135.19 0 74.98-61 136-136 136H36c-19.88 0-36 16.12-36 36 0 6.63 5.37 12 12 12h488c6.63 0 12-5.37 12-12 0-19.88-16.12-36-36-36zm-297.44-96v-40h58.88v40h-58.88zm92.28-72H145.16l-1.16-1.14L145.16 96h24V48h77.69L248 96h24l-1.16 200z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

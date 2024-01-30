@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'clipboard-user';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7f3';
-var svgPathData = 'M320 64H280h-9.6C263 27.5 230.7 0 192 0s-71 27.5-78.4 64H104 64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64zM80 112v24c0 13.3 10.7 24 24 24h88 88c13.3 0 24-10.7 24-24V112h16c8.8 0 16 7.2 16 16V448c0 8.8-7.2 16-16 16H304c0-44.2-35.8-80-80-80H160c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V128c0-8.8 7.2-16 16-16H80zm88-32a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z';
+var svgPathData = 'M336 64h-80a64 64 0 0 0-128 0H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V112a48 48 0 0 0-48-48zM192 40a24 24 0 1 1-24 24 24 24 0 0 1 24-24zm144 418a6 6 0 0 1-6 6H54a6 6 0 0 1-6-6V118a6 6 0 0 1 6-6h42v36a12 12 0 0 0 12 12h168a12 12 0 0 0 12-12v-36h42a6 6 0 0 1 6 6zm-99.2-106h-5a103.25 103.25 0 0 1-79.7 0h-5c-37.01 0-67.1 25.79-67.1 57.6v6.4a16 16 0 0 0 16 16h192a16 16 0 0 0 16-16v-6.4c0-31.81-30.09-57.6-67.2-57.6zM192 336a64 64 0 1 0-64-64 64 64 0 0 0 64 64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

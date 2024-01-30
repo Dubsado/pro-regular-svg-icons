@@ -1,23 +1,29 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faArrowUpSmallBig');
+var prefix = 'far';
+var iconName = 'sort-size-up-alt';
+var width = 512;
+var height = 512;
+var ligatures = [];
+var unicode = 'f88f';
+var svgPathData = 'M484 256H252a28 28 0 0 0-28 28v168a28 28 0 0 0 28 28h232a28 28 0 0 0 28-28V284a28 28 0 0 0-28-28zm-20 176H272V304h192zM244 192h184a20 20 0 0 0 20-20V52a20 20 0 0 0-20-20H244a20 20 0 0 0-20 20v120a20 20 0 0 0 20 20zm28-112h128v64H272zM104.72 35.76a12 12 0 0 0-17.44 0l-68 72A12 12 0 0 0 28 128h44v336a16 16 0 0 0 16 16h16a16 16 0 0 0 16-16V128h44a12 12 0 0 0 8.73-20.24z';
+
 exports.definition = {
-  prefix: source.prefix,
-  iconName: source.iconName,
+  prefix: prefix,
+  iconName: iconName,
   icon: [
-    source.width,
-    source.height,
-    source.aliases,
-    source.unicode,
-    source.svgPathData
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
   ]};
 
 exports.faSortSizeUpAlt = exports.definition;
-exports.prefix = source.prefix;
-exports.iconName = source.iconName;
-exports.width = source.width;
-exports.height = source.height;
-exports.ligatures = source.aliases;
-exports.unicode = source.unicode;
-exports.svgPathData = source.svgPathData;
-exports.aliases = source.aliases;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

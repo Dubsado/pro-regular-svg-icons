@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'square-root';
-var width = 576;
+var width = 512;
 var height = 512;
-var aliases = [8730];
+var ligatures = [];
 var unicode = 'f697';
-var svgPathData = 'M344.3 80c-3.6 0-6.7 2.4-7.7 5.8L231.1 462.5c-2.6 9.4-10.7 16.3-20.5 17.4s-19.1-3.9-23.8-12.5L83.9 276.2c-1.4-2.6-4.1-4.2-7-4.2H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H76.9c20.6 0 39.5 11.3 49.3 29.5l74.7 138.8L290.3 72.9C297.1 48.7 319.2 32 344.3 32H552c13.3 0 24 10.7 24 24s-10.7 24-24 24H344.3z';
+var svgPathData = 'M174.06 480c-17.84 0-33.88-9.92-41.81-25.89L49.19 288H16c-8.84 0-16-7.16-16-16v-16c0-8.84 7.16-16 16-16h38.12c15.16 0 29.03 8.57 35.81 22.13l75.65 151.33c3.31 6.63 13.08 5.58 14.91-1.6l97.19-349.24C282.09 44.58 298.09 32 316.59 32H496c8.84 0 16 7.16 16 16v16c0 8.84-7.16 16-16 16H322.88L219.56 444.2c-5.09 21.08-23.81 35.8-45.5 35.8z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

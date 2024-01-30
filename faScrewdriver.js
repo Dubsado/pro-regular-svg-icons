@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'screwdriver';
 var width = 512;
 var height = 512;
-var aliases = [129691];
+var ligatures = [];
 var unicode = 'f54a';
-var svgPathData = 'M445.9 55.9l10.2 10.2L396.2 144H368V115.8l77.9-59.9zM507 78.6c7.4-9.6 6.5-23.1-2.1-31.6L465 7c-8.5-8.5-22-9.4-31.6-2.1l-104 80c-5.9 4.5-9.4 11.6-9.4 19v54.1l-85.6 85.6c6.7 4.2 13 9.3 18.8 15.1s10.9 12.2 15.1 18.8L353.9 192H408c7.5 0 14.5-3.5 19-9.4l80-104zM155.3 315.3c11.4-11.4 29.9-11.4 41.4 0s11.4 29.9 0 41.4L96 457.4 54.6 416 155.3 315.3zm75.3-33.9c-30.2-30.2-79.1-30.2-109.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l64 64c12.5 12.5 32.8 12.5 45.3 0l112-112c30.2-30.2 30.2-79.1 0-109.3z';
+var svgPathData = 'M400 224L512 74.67 437.33 0 288 112v78.06l-75.85 75.85c-44.88-23.79-82.68.42-96.41 14.16L12.03 383.77c-16.04 16.05-16.04 42.06 0 58.11l58.09 58.09C78.15 507.99 88.66 512 99.18 512c10.51 0 21.03-4.01 29.05-12.03l103.71-103.71c26.14-26.14 30.61-65.37 14.16-96.41L321.94 224H400zm-64-88l96.83-72.62 15.79 15.79L376 176h-40v-40zM197.99 362.32l-98.82 98.82-48.31-48.31 98.82-98.82c13.34-13.34 34.95-13.36 48.31 0 13.32 13.32 13.32 34.99 0 48.31z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'rainbow';
-var width = 640;
+var width = 576;
 var height = 512;
-var aliases = [127752];
+var ligatures = [];
 var unicode = 'f75b';
-var svgPathData = 'M320 88C169.8 88 48 209.8 48 360v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360C0 183.3 143.3 40 320 40s320 143.3 320 320v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360C592 209.8 470.2 88 320 88zm0 224c-26.5 0-48 21.5-48 48v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360c0-53 43-96 96-96s96 43 96 96v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360c0-26.5-21.5-48-48-48zM160 360v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360c0-114.9 93.1-208 208-208s208 93.1 208 208v96c0 13.3-10.7 24-24 24s-24-10.7-24-24V360c0-88.4-71.6-160-160-160s-160 71.6-160 160z';
+var svgPathData = 'M268.3 32.7C115.4 42.9 0 176.9 0 330.2V464c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320C48 177.3 173.2 63.3 319.6 82 440.6 97.5 528 206.4 528 328.3V464c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320c0-165.3-140-298.6-307.7-287.3zm-5.6 97.4C166 142.5 96 229.6 96 327.2V464c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320.5c0-84.2 72.5-151.7 158.4-143.3 74.8 7.3 129.6 74.5 129.6 149.7V464c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320.5c0-114.2-100.2-205.4-217.3-190.4zm6.2 95.8c-45.6 8.9-76.9 51.5-76.9 97.9V464c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320c0-26.5 21.5-48 48-48s48 21.5 48 48v144c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V320c0-59.2-53.8-106-115.1-94.1z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

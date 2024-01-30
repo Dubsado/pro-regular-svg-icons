@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'light-ceiling';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e016';
-var svgPathData = 'M280 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V161.1C112.4 172.2 16.7 265.6 2 384.1C-.2 401.6 14.3 416 32 416H480c17.7 0 32.2-14.4 30-31.9c-14.7-118.5-110.5-211.8-230-223V24zM458.4 368H53.6C75.2 276.3 157.7 208 256 208s180.8 68.3 202.4 160zM256 512c35.3 0 64-28.7 64-64H192c0 35.3 28.7 64 64 64z';
+var svgPathData = 'M256,512a64,64,0,0,0,64-64H192A64,64,0,0,0,256,512Zm24-350.9V0H232V161.1C112.78,172,17,263.19.32,379.62-2.43,398.81,13,416,32.56,416H479.44c19.56,0,35-17.19,32.24-36.38C495,263.19,399.22,172,280,161.1ZM51.35,368c22.13-92.42,107-160,204.65-160s182.52,67.58,204.65,160Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

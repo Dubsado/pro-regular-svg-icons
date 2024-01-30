@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'bed-empty';
 var width = 640;
 var height = 512;
-var aliases = [128719];
+var ligatures = [];
 var unicode = 'f8f9';
-var svgPathData = 'M48 56c0-13.3-10.7-24-24-24S0 42.7 0 56V184 360v96c0 13.3 10.7 24 24 24s24-10.7 24-24V384H592v80c0 13.3 10.7 24 24 24s24-10.7 24-24V360 280c0-66.3-53.7-120-120-120H48V56zM592 336H48V208H520c39.8 0 72 32.2 72 72v56z';
+var svgPathData = 'M528,128H48V80A16,16,0,0,0,32,64H16A16,16,0,0,0,0,80V432a16,16,0,0,0,16,16H32a16,16,0,0,0,16-16V384H592v48a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V240A112,112,0,0,0,528,128ZM160,336H48V176H160Zm432,0H208V176H528a64.07,64.07,0,0,1,64,64Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

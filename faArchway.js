@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'archway';
-var width = 512;
+var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f557';
-var svgPathData = 'M0 56C0 42.7 10.7 32 24 32H56 456h24c13.3 0 24 10.7 24 24s-10.7 24-24 24V432h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H456 424 360c-13.3 0-24-10.7-24-24V336c0-44.2-35.8-80-80-80s-80 35.8-80 80V456c0 13.3-10.7 24-24 24H88 56 24c-13.3 0-24-10.7-24-24s10.7-24 24-24h8V80H24C10.7 80 0 69.3 0 56zM80 80v32H432V80H80zm0 80V432h8 40V336c0-70.7 57.3-128 128-128s128 57.3 128 128v96h40 8V160H80z';
+var svgPathData = 'M560 48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16H16C7.16 0 0 7.16 0 16v16c0 8.84 7.16 16 16 16h16v416H16.02c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16H176c8.84 0 16-7.16 16-16V320c0-53.02 42.98-96 96-96s96 42.98 96 96v160h.02v16c0 8.84 7.16 16 16 16H560c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-16V48h16zm-64 0v40H80V48h416zm-64 416V320c0-79.4-64.6-144-144-144s-144 64.6-144 144v144H80V136h416v328h-64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

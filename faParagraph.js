@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'paragraph';
 var width = 448;
 var height = 512;
-var aliases = [182];
+var ligatures = [];
 var unicode = 'f1dd';
-var svgPathData = 'M32 192c0-88.4 71.6-160 160-160h64H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H384l0 376c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-376H288V456c0 13.3-10.7 24-24 24s-24-10.7-24-24V352H192c-88.4 0-160-71.6-160-160zM240 304V80H192C130.1 80 80 130.1 80 192s50.1 112 112 112h48z';
+var svgPathData = 'M415 32H191a160 160 0 0 0 0 320h48v112a16 16 0 0 0 16 16h16a16 16 0 0 0 16-16V80h48v384a16 16 0 0 0 16 16h16a16 16 0 0 0 16-16V80h32a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM239 304h-48a112 112 0 0 1 0-224h48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

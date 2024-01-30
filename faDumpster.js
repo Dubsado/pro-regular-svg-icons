@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'dumpster';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f793';
-var svgPathData = 'M49.7 32c-10.5 0-19.8 6.9-22.9 16.9L.9 133c-.6 2-.9 4.1-.9 6.1C0 150.7 9.3 160 20.9 160h94L140.5 32H49.7zM272 160V32H173.1L147.5 160H272zm32 0H428.5L402.9 32H304V160zm157.1 0h94c11.5 0 20.9-9.3 20.9-20.9c0-2.1-.3-4.1-.9-6.1L549.2 48.9C546.1 38.9 536.8 32 526.3 32H435.5l25.6 128zM86.4 240H489.6l-20 160H106.4l-20-160zM112 448H464v8c0 13.3 10.7 24 24 24s24-10.7 24-24v-8l22-176h18c13.3 0 24-10.7 24-24s-10.7-24-24-24H540l4-32H495.6 80.4 32l4 32H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H42L64 448v8c0 13.3 10.7 24 24 24s24-10.7 24-24v-8z';
+var svgPathData = 'M560 160c10.4 0 18-9.8 15.5-19.9l-24-96C549.7 37 543.3 32 536 32h-98.9l25.6 128H560zM404.5 32H304v128h126.1L404.5 32zM560 224h-20l4-32H32l4 32H16c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h26l22 176v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h320v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16l22-176h26c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16zm-90.4 176H106.4l-20-160h403.3l-20.1 160zM16 160h97.3l25.6-128H40c-7.3 0-13.7 5-15.5 12.1l-24 96C-2 150.2 5.6 160 16 160zM272 32H171.5l-25.6 128H272V32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

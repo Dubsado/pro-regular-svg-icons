@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'less-than';
-var width = 384;
+var width = 320;
 var height = 512;
-var aliases = [62774];
-var unicode = '3c';
-var svgPathData = 'M381.5 77.3c5.9 11.9 1.1 26.3-10.7 32.2L77.7 256 370.7 402.5c11.9 5.9 16.7 20.3 10.7 32.2s-20.3 16.7-32.2 10.7l-336-168C5.1 273.4 0 265.1 0 256s5.1-17.4 13.3-21.5l336-168c11.9-5.9 26.3-1.1 32.2 10.7z';
+var ligatures = [];
+var unicode = 'f536';
+var svgPathData = 'M311.15 373.06L77.04 256l234.11-117.06c7.9-3.95 11.11-13.56 7.16-21.46L304 88.85c-3.95-7.9-13.56-11.11-21.47-7.16L8.84 218.53A16 16 0 0 0 0 232.85v46.31c0 6.06 3.42 11.6 8.84 14.31l273.68 136.84c7.9 3.95 17.52.75 21.47-7.16l14.31-28.63c3.96-7.9.75-17.51-7.15-21.46z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'voicemail';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f897';
-var svgPathData = 'M144 144a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM251.3 336c22.8-25.5 36.7-59.1 36.7-96c0-79.5-64.5-144-144-144S0 160.5 0 240s64.5 144 144 144H496c79.5 0 144-64.5 144-144s-64.5-144-144-144s-144 64.5-144 144c0 36.9 13.9 70.5 36.7 96H251.3zM496 144a96 96 0 1 1 0 192 96 96 0 1 1 0-192z';
+var svgPathData = 'M496 128a144 144 0 0 0-144 144c0 37.05 14.38 70.48 37.37 96H250.63c23-25.52 37.37-58.95 37.37-96a144 144 0 1 0-144 144h352a144 144 0 0 0 0-288zM48 272a96 96 0 1 1 96 96 96.11 96.11 0 0 1-96-96zm448 96a96 96 0 1 1 96-96 96.11 96.11 0 0 1-96 96z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

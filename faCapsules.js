@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'capsules';
-var width = 576;
+var width = 544;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f46b';
-var svgPathData = 'M48 144c0-35.3 28.7-64 64-64s64 28.7 64 64V256H48V144zM0 144V368c0 61.9 50.1 112 112 112s112-50.1 112-112V189.6c1.8 19.1 8.2 38 19.8 54.8L372.3 431.7c35.5 51.7 105.3 64.3 156 28.1s63-107.5 27.5-159.2L427.3 113.3C391.8 61.5 321.9 49 271.3 85.2c-28 20-44.3 50.8-47.3 83V144c0-61.9-50.1-112-112-112S0 82.1 0 144zm283.4 73.3c-20.9-30.4-13.3-72.2 15.8-93c28.5-20.4 68-13.7 88.5 16.2l66.9 97.5L348.5 312.2l-65.1-94.9z';
+var svgPathData = 'M529 296.8l-111.5-193C386.8 50.4 318.6 32.2 265.3 63c-21.2 12.3-36.6 30.5-45.8 51.3C206.4 67 163.5 32 112 32 50.1 32 0 82.1 0 144v224c0 61.9 50.1 112 112 112s112-50.1 112-112V214c.2.4.3.8.5 1.2l111.5 193c30.8 53.3 98.9 71.6 152.3 40.8s71.5-98.9 40.7-152.2zM176 256H48V144c0-84.7 128-84.7 128 0v112zm89.9-64.7c-42.1-73 68.2-136.7 110.3-63.7l43.8 75.8-110.3 63.7-43.8-75.8z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

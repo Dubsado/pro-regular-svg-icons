@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'game-board';
-var width = 448;
+var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f867';
-var svgPathData = 'M384 80c8.8 0 16 7.2 16 16V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16H384zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM304 96H224v80H144V96H64v80h80v80H64v80h80v80h80V336h80v80h80V336H304V256h80V176H304V96zM224 256v80H144V256h80zm0 0V176h80v80H224z';
+var svgPathData = 'M480 0H32A32 32 0 0 0 0 32v448a32 32 0 0 0 32 32h448a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32zm-16 464H48V48h416zm-32-32v-88h-88v88zm0-176v-88h-88v88zM80 80v88h88V80zm264 0h-88v88h88zM168 432h88v-88h-88zm88-264h-88v88h88zm0 176h88v-88h-88zm-88-88H80v88h88z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

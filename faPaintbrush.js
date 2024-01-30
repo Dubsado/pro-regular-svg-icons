@@ -1,12 +1,12 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
-var iconName = 'paintbrush';
-var width = 576;
+var iconName = 'paint-brush';
+var width = 512;
 var height = 512;
-var aliases = [128396,"paint-brush"];
+var ligatures = [];
 var unicode = 'f1fc';
-var svgPathData = 'M278 219.5L356.5 298 524.7 73.6c4.8-6.4 4.1-15.3-1.5-20.9s-14.5-6.3-20.9-1.5L278 219.5zM199.1 321.6c-4.9-1-9.9-1.6-15.1-1.6c-39.8 0-72 32.2-72 72c0 3.8 .3 7.5 .8 11.1c3.3 21.4-2.2 43.1-13.8 60l-.7 .9H184c39.8 0 72-32.2 72-72c0-5.2-.5-10.2-1.6-15.1l-55.4-55.4zM384 341.3c-19.1 25.5-48.6 41.1-80.3 42.6c.2 2.7 .3 5.4 .3 8.1c0 66.3-53.7 120-120 120H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h6c18.1 0 30.1-19.8 27.4-37.6c-.9-6-1.4-12.1-1.4-18.4c0-66.3 53.7-120 120-120c2.7 0 5.4 .1 8.1 .3c1.5-31.7 17-61.1 42.5-80.3L473.5 12.8C499-6.3 534.6-3.8 557.2 18.7s25.1 58.2 6 83.7L384 341.3z';
+var svgPathData = 'M455.59 0c-15.81 0-30.62 6.99-41.93 17.15C195.73 211.82 169.77 216.5 179.98 281.99c-41.52 4.96-78.59 24.05-100.32 81.32-2.68 7.08-9.12 11.38-16.64 11.38-12.67 0-51.85-31.56-63.02-39.19C0 429.45 43.26 512 146 512c117.18 0 152.72-87.75 145.06-145.89 56.9-7.01 97.15-62.51 206.45-266.49C505.2 84.65 512 68.48 512 51.66 512 21.52 484.89 0 455.59 0zM222.08 432.89c-16.24 18.52-41.84 27.91-76.08 27.91-35.97 0-58.6-14.93-72.68-35.65 24.56-3.6 45.23-19.96 54.21-43.67 13.79-36.33 32.61-45.55 58.52-48.65l16.43-1.96 36.06 28.51 1.77 13.41c2.07 15.77-1.46 40.97-18.23 60.1zm62.72-117.6l-16.87 2.08L233 289.75l-2.44-15.64C224.3 233.92 444.24 44.8 456.12 54.57c12.12 9.98-121.27 254.56-171.32 260.72z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,17 +14,16 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
 
-exports.faPaintbrush = exports.definition;
+exports.faPaintBrush = exports.definition;
 exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

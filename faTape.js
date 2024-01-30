@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'tape';
-var width = 576;
+var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f4db';
-var svgPathData = 'M224 80a176 176 0 1 1 0 352 176 176 0 1 1 0-352zM362.6 432c52-41 85.4-104.6 85.4-176C448 132.3 347.7 32 224 32S0 132.3 0 256S100.3 480 224 480H552c13.3 0 24-10.7 24-24s-10.7-24-24-24H362.6zM224 208a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 144a96 96 0 1 0 0-192 96 96 0 1 0 0 192z';
+var svgPathData = 'M624 432H362.3c52.1-41 85.7-104.5 85.7-176 0-123.7-100.3-224-224-224S0 132.3 0 256s100.3 224 224 224h400c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16zm-400 0c-97 0-176-79-176-176S127 80 224 80s176 79 176 176-79 176-176 176zm0-272c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

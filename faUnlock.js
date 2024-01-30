@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'unlock';
 var width = 448;
 var height = 512;
-var aliases = [128275];
+var ligatures = [];
 var unicode = 'f09c';
-var svgPathData = 'M144 128c0-44.2 35.8-80 80-80c35.6 0 65.8 23.2 76.1 55.4c4.1 12.6 17.6 19.5 30.2 15.5s19.5-17.6 15.5-30.2C329.2 37.2 281 0 224 0C153.3 0 96 57.3 96 128v64H64c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V256c0-35.3-28.7-64-64-64H144V128zM48 256c0-8.8 7.2-16 16-16H384c8.8 0 16 7.2 16 16V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V256z';
+var svgPathData = 'M400 240H128v-94.8c0-52.8 42.1-96.7 95-97.2 53.4-.6 97 42.7 97 96v24c0 13.3 10.7 24 24 24s24-10.7 24-24v-22.6C368 65.8 304 .2 224.3 0 144.8-.2 80 64.5 80 144v96H48c-26.5 0-48 21.5-48 48v176c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V288c0-26.5-21.5-48-48-48zm0 224H48V288h352v176z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

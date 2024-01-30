@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'ruble-sign';
 var width = 384;
 var height = 512;
-var aliases = [8381,"rouble","rub","ruble"];
+var ligatures = [];
 var unicode = 'f158';
-var svgPathData = 'M111.3 32C85.2 32 64 53.2 64 79.3V272H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v48H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v40c0 13.3 10.7 24 24 24s24-10.7 24-24V416H296c13.3 0 24-10.7 24-24s-10.7-24-24-24H112V320H240c79.5 0 144-64.5 144-144s-64.5-144-144-144H111.3zM240 272H112V80H240c53 0 96 43 96 96s-43 96-96 96z';
+var svgPathData = 'M243.128 314.38C324.987 314.38 384 257.269 384 172.238S324.987 32 243.128 32H76c-6.627 0-12 5.373-12 12v215.807H12c-6.627 0-12 5.373-12 12v30.572c0 6.627 5.373 12 12 12h52V352H12c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h52v68c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12v-68h180c6.627 0 12-5.373 12-12v-24c0-6.627-5.373-12-12-12H128v-37.62h115.128zM128 86.572h105.61c53.303 0 86.301 31.728 86.301 85.666 0 53.938-32.998 87.569-86.935 87.569H128V86.572z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

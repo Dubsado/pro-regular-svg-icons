@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'toothbrush';
-var width = 576;
+var width = 640;
 var height = 512;
-var aliases = [129701];
+var ligatures = [];
 var unicode = 'f635';
-var svgPathData = 'M64 176c-8.8 0-16-7.2-16-16s7.2-16 16-16H288c29.4 0 55.1-11.9 71-36.1c4.3-6.5 7.4-13.2 9.7-19.9c6.4 2.7 12 6 16.6 9.7c9.5 7.7 14.6 17 14.6 30.3c0 26.5-21.5 48-48 48H64zM0 160c0 35.3 28.7 64 64 64H352c53 0 96-43 96-96c0-58.5-51.6-89.9-104-95.2c-8.8-.9-15.8 6.4-16.4 15.2c-1.5 25.3-8.4 48-39.6 48H64C28.7 96 0 124.7 0 160zM80 280c0-13.3-10.7-24-24-24s-24 10.7-24 24V432H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H56h80 80 80 80H552c13.3 0 24-10.7 24-24s-10.7-24-24-24H400V280c0-13.3-10.7-24-24-24s-24 10.7-24 24V432H320V280c0-13.3-10.7-24-24-24s-24 10.7-24 24V432H240V280c0-13.3-10.7-24-24-24s-24 10.7-24 24V432H160V280c0-13.3-10.7-24-24-24s-24 10.7-24 24V432H80V280z';
+var svgPathData = 'M624 464H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zM48 224c-8.84 0-16 7.16-16 16v192h48V240c0-8.84-7.16-16-16-16H48zm368 0c-8.84 0-16 7.16-16 16v192h48V240c0-8.84-7.16-16-16-16h-16zm-272 0c-8.84 0-16 7.16-16 16v192h48V240c0-8.84-7.16-16-16-16h-16zm176 0c-8.84 0-16 7.16-16 16v192h48V240c0-8.84-7.16-16-16-16h-16zm-88 0c-8.84 0-16 7.16-16 16v192h48V240c0-8.84-7.16-16-16-16h-16zM64 192h352c35.35 0 64-28.65 64-64C480 57.31 422.69 0 352 0c23.62 23.62 6.89 64-26.51 64H64C28.65 64 0 92.65 0 128s28.65 64 64 64zm0-80h261.49c32.45 0 61.66-18.11 76.18-46.68C420.13 79.99 432 102.64 432 128c0 8.82-7.18 16-16 16H64c-8.82 0-16-7.18-16-16s7.18-16 16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

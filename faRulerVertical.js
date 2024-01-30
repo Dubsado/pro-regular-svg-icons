@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'ruler-vertical';
 var width = 256;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f548';
-var svgPathData = 'M192 48c8.8 0 16 7.2 16 16V96H160c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v64H160c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v64H160c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v64H160c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H192zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H192c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z';
+var svgPathData = 'M224 0H32C14.33 0 0 14.33 0 32v448c0 17.67 14.33 32 32 32h192c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM48 464V48h160v48h-56c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h56v64h-56c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h56v64h-56c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h56v64h-56c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h56v48H48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

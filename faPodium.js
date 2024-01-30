@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'podium';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f680';
-var svgPathData = 'M168 72c-22.1 0-40 17.9-40 40v32H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H80V112c0-48.6 39.4-88 88-88h14.4C190.7 9.7 206.2 0 224 0h64c26.5 0 48 21.5 48 48s-21.5 48-48 48H224c-17.8 0-33.3-9.7-41.6-24H168zM73.5 455.2L47.3 224H95.6l25.7 225.8c.9 8.1 7.8 14.2 15.9 14.2H310.9c8.1 0 15-6.1 15.9-14.2L352.4 224h48.3L374.5 455.2c-3.7 32.3-31 56.8-63.6 56.8H137.1c-32.6 0-59.9-24.4-63.6-56.8z';
+var svgPathData = 'M432 160H112c0-33.85 21.22-62.69 52.02-74.35C172.92 110.29 196.29 128 224 128h32c35.35 0 64-28.65 64-64S291.35 0 256 0h-32c-24.63 0-45.77 14.07-56.47 34.47C108.63 45.94 64 97.8 64 160H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h51.02l23.71 256H48c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h352c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-42.73l23.71-256H432c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zM224 48h32c8.82 0 16 7.18 16 16s-7.18 16-16 16h-32c-8.82 0-16-7.18-16-16s7.18-16 16-16zm85.04 416H138.96l-23.71-256h217.5l-23.71 256z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

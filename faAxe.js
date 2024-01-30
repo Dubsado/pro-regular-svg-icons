@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'axe';
 var width = 640;
 var height = 512;
-var aliases = [129683];
+var ligatures = [];
 var unicode = 'f6b2';
-var svgPathData = 'M486.6 9.4c-12.5-12.5-32.8-12.5-45.3 0L408 42.7 374.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3L384 301.3V384c0 17.7 14.3 32 32 32c123.7 0 224-100.3 224-224c0-17.7-14.3-32-32-32H525.3l-56-56 33.4-33.4c12.5-12.5 12.5-32.8 0-45.3l-16-16zM305.4 267.9l-61.3-61.3L9.4 441.4c-12.5 12.5-12.5 32.8 0 45.3l16 16c12.5 12.5 32.8 12.5 45.3 0L305.4 267.9zm185.9-73.9c9 9 21.2 14.1 33.9 14.1h66c-7.6 84.4-74.8 151.7-159.3 159.3v-66c0-12.7-5.1-24.9-14.1-33.9L278.6 128 352 54.6 491.3 193.9z';
+var svgPathData = 'M525.74 160l-58.59-58.59 39.92-39.92c6.25-6.25 6.25-16.38 0-22.63L473.13 4.93c-6.25-6.25-16.38-6.25-22.63 0l-39.92 39.92-35.46-35.48C368.87 3.12 360.68 0 352.49 0s-16.38 3.12-22.63 9.37l-96.49 96.49c-12.5 12.5-12.5 32.76 0 45.25l35.47 35.47L4.69 450.74c-6.25 6.25-6.25 16.38 0 22.63l33.94 33.94c6.25 6.25 16.38 6.25 22.63 0l264.16-264.16L384 301.74V416h32c123.71 0 224-100.29 224-224v-32H525.74zM432 367.28v-85.42l-4.69-4.69-148.68-148.68 73.85-73.87 148.7 148.7 4.69 4.69h85.42c-7.64 84.3-74.98 151.64-159.29 159.27z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'seedling';
 var width = 512;
 var height = 512;
-var aliases = [127793,"sprout"];
+var ligatures = [];
 var unicode = 'f4d8';
-var svgPathData = 'M307.3 207c82.9-9.1 148.4-75.6 156-159H456c-76.7 0-142 49.1-166.1 117.5c-8.8-16.8-19.4-32.6-31.6-47.1C296.1 48 370.5 0 456 0h24c17.7 0 32 14.3 32 32c0 113.6-84.6 207.4-194.2 222c-2.1-16.2-5.6-31.9-10.5-47.1zM48 112v16c0 97.2 78.8 176 176 176h8V288c0 0 0 0 0 0c0-97.2-78.8-176-176-176H48zM280 288v16 48l0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136h-8C100.3 352 0 251.7 0 128V96C0 78.3 14.3 64 32 64H56c123.7 0 224 100.3 224 224z';
+var svgPathData = 'M436.4 32c-91 0-168.3 67.9-194.7 161.4C204.6 134.6 144 96 75.6 96H0v24c0 127.9 91.7 232 204.4 232H232v112c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V288h27.6C420.3 288 512 183.9 512 56V32h-75.6zm-232 272c-79.3 0-145.1-69.8-155.1-160h26.2c79.3 0 145.1 69.8 155.1 160h-26.2zm103.2-64h-26.2c10-90.2 75.8-160 155.1-160h26.2c-10 90.2-75.8 160-155.1 160z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

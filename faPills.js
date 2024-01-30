@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'pills';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f484';
-var svgPathData = 'M112 80c35.3 0 64 28.7 64 64V256H48V144c0-35.3 28.7-64 64-64zM0 144V368c0 61.9 50.1 112 112 112s112-50.1 112-112V144c0-61.9-50.1-112-112-112S0 82.1 0 144zM416 432c-61.9 0-112-50.1-112-112c0-22.2 6.5-43 17.7-60.4L476.4 414.3C459 425.5 438.2 432 416 432zM355.6 225.7C373 214.5 393.8 208 416 208c61.9 0 112 50.1 112 112c0 22.2-6.5 43-17.7 60.4L355.6 225.7zM416 480a160 160 0 1 0 0-320 160 160 0 1 0 0 320z';
+var svgPathData = 'M112 32C50.1 32 0 82.1 0 144v224c0 61.9 50.1 112 112 112s112-50.1 112-112V144c0-61.9-50.1-112-112-112zm64 224H48V144c0-84.7 128-84.7 128 0v112zm353.1-49.1c-62.4-62.4-163.8-62.5-226.3 0s-62.5 163.8 0 226.3c62.4 62.4 163.8 62.5 226.3 0s62.5-163.9 0-226.3zm-207.3 52.8l154.5 154.5C375.7 478.8 257 360.5 321.8 259.7zm188.4 120.6L355.7 225.8c100.6-64.7 219.3 53.7 154.5 154.5z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

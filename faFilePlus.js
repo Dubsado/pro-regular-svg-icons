@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'file-plus';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f319';
-var svgPathData = 'M48 448V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zM192 208c-13.3 0-24 10.7-24 24v48H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h48v48c0 13.3 10.7 24 24 24s24-10.7 24-24V328h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V232c0-13.3-10.7-24-24-24z';
+var svgPathData = 'M369.9,97.9,286,14A48,48,0,0,0,252.1-.1H48A48.16,48.16,0,0,0,0,48V464a48,48,0,0,0,48,48H336a48,48,0,0,0,48-48V131.9A48.23,48.23,0,0,0,369.9,97.9ZM256,51.9,332.1,128H256ZM336,464H48V48H208V152a23.94,23.94,0,0,0,24,24H336ZM215,223.75a16,16,0,0,0-16-16H183a16,16,0,0,0-16,16v56.5h-55.5a16,16,0,0,0-16,16v16a16,16,0,0,0,16,16H167v56a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16v-56h56.5a16,16,0,0,0,16-16v-16a16,16,0,0,0-16-16H215Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

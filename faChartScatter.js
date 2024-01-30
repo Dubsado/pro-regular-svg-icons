@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'chart-scatter';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7ee';
-var svgPathData = 'M48 56c0-13.3-10.7-24-24-24S0 42.7 0 56V408c0 39.8 32.2 72 72 72H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H72c-13.3 0-24-10.7-24-24V56zM192 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm128 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64-224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM160 352a32 32 0 1 0 0-64 32 32 0 1 0 0 64z';
+var svgPathData = 'M496 400H48V80a16 16 0 0 0-16-16H16A16 16 0 0 0 0 80v336a32 32 0 0 0 32 32h464a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zm-336-80a32 32 0 1 0-32-32 32 32 0 0 0 32 32zm256-160a32 32 0 1 0-32-32 32 32 0 0 0 32 32zm-224 0a32 32 0 1 0-32-32 32 32 0 0 0 32 32zm192 160a32 32 0 1 0-32-32 32 32 0 0 0 32 32zm-96-64a32 32 0 1 0-32-32 32 32 0 0 0 32 32z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

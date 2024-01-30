@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'tv-retro';
 var width = 512;
 var height = 512;
-var aliases = [128250];
+var ligatures = [];
 var unicode = 'f401';
-var svgPathData = 'M135 7c9.4-9.4 24.6-9.4 33.9 0l87 87L343 7c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55H432c44.2 0 80 35.8 80 80V432c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V176c0-44.2 35.8-80 80-80H190.1L135 41c-9.4-9.4-9.4-24.6 0-33.9zM80 144c-17.7 0-32 14.3-32 32V432c0 17.7 14.3 32 32 32H432c17.7 0 32-14.3 32-32V176c0-17.7-14.3-32-32-32H80zm336 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM392 304a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM144 192H304c26.5 0 48 21.5 48 48V368c0 26.5-21.5 48-48 48H144c-26.5 0-48-21.5-48-48V240c0-26.5 21.5-48 48-48z';
+var svgPathData = 'M400 244v-8c0-6.6 5.4-12 12-12h8c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12h-8c-6.6 0-12-5.4-12-12zm12 76h8c6.6 0 12-5.4 12-12v-8c0-6.6-5.4-12-12-12h-8c-6.6 0-12 5.4-12 12v8c0 6.6 5.4 12 12 12zm-36-136.5s-1.5-7.5-144-7.5-144.5 7.5-144.5 7.5S80 184 80 288s7.5 104.5 7.5 104.5S88 400 232 400s144-7.5 144-7.5 7.5-.5 7.5-104.5-7.5-104.5-7.5-104.5zM512 144v288c0 26.5-21.5 48-48 48h-16v32h-48l-10.7-32H122.7L112 512H64v-32H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h140.9l-54-55.2c-9.3-9.5-9.1-24.7.3-33.9 9.5-9.3 24.7-9.1 33.9.3L256 96l86.9-88.8c9.3-9.5 24.5-9.6 33.9-.3 9.5 9.3 9.6 24.5.3 33.9l-54 55.2H464c26.5 0 48 21.5 48 48zm-48 0H48v288h416V144z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

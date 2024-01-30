@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'lambda';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f66e';
-var svgPathData = 'M24 32C10.7 32 0 42.7 0 56S10.7 80 24 80H132.6c3 0 5.7 1.7 7.1 4.3l10.2 19.6L2 446.5c-5.3 12.2 .4 26.3 12.5 31.5s26.3-.3 31.5-12.5L178.4 158.9l151.3 291c9.6 18.5 28.8 30.2 49.7 30.2H424c13.3 0 24-10.7 24-24s-10.7-24-24-24H379.4c-3 0-5.7-1.7-7.1-4.3L182.3 62.2C172.6 43.6 153.5 32 132.6 32H24z';
+var svgPathData = 'M440 432h-72.91L183.81 50.15A32.01 32.01 0 0 0 154.96 32H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h136.91l9.08 18.92L1.31 457.7C-3.21 468.25 4.53 480 16.02 480h17.41c6.4 0 12.18-3.81 14.71-9.7l134.01-312.7 146.04 304.25A31.998 31.998 0 0 0 357.04 480H440c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

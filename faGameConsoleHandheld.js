@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'game-console-handheld';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8bb';
-var svgPathData = 'M64 48c-8.8 0-16 7.2-16 16V416c0 26.5 21.5 48 48 48H288c26.5 0 48-21.5 48-48V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V416c0 53-43 96-96 96H96c-53 0-96-43-96-96V64zM232 336a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm24-24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM128 288c8.8 0 16 7.2 16 16v16h16c8.8 0 16 7.2 16 16s-7.2 16-16 16H144v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V352H96c-8.8 0-16-7.2-16-16s7.2-16 16-16h16V304c0-8.8 7.2-16 16-16zM112 96H272c8.8 0 16 7.2 16 16V224c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V112c0-8.8 7.2-16 16-16z';
+var svgPathData = 'M352 0H32A32 32 0 0 0 0 32v448a32 32 0 0 0 32 32h256a96 96 0 0 0 96-96V32a32 32 0 0 0-32-32zm-16 416a48.05 48.05 0 0 1-48 48H48V48h288zM112 240h144a32 32 0 0 0 32-32V96a16 16 0 0 0-16-16H112a16 16 0 0 0-16 16v128a16 16 0 0 0 16 16zM88 352h24v24a8 8 0 0 0 8 8h16a8 8 0 0 0 8-8v-24h24a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8h-24v-24a8 8 0 0 0-8-8h-16a8 8 0 0 0-8 8v24H88a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8zm144-16a24 24 0 1 0 24 24 24 24 0 0 0-24-24zm24-24a24 24 0 1 0 24-24 24 24 0 0 0-24 24z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

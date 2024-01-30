@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'mug-marshmallows';
 var width = 512;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7b7';
-var svgPathData = 'M197.7 125.7C194 122 192 117.1 192 112s2-10 5.7-13.7l60.7-60.7C262 34 266.9 32 272 32s10 2 13.7 5.7l60.7 60.7c3.6 3.6 5.7 8.5 5.7 13.7s-2 10-5.7 13.7L344 128H200l-2.3-2.3zM32 64c0-17.7 14.3-32 32-32H192c7.5 0 14.4 2.6 19.8 6.9L175 75.7c-9.6 9.6-15 22.7-15 36.3c0 5.5 .9 10.9 2.6 16H32V64zM48 384c0 26.5 21.5 48 48 48H288c26.5 0 48-21.5 48-48V208H152v56c0 13.3-10.7 24-24 24s-24-10.7-24-24V208H48V384zM0 192c0-17.7 14.3-32 32-32H352h48c61.9 0 112 50.1 112 112s-50.1 112-112 112H384c0 53-43 96-96 96H96c-53 0-96-43-96-96V192zM384 336h16c35.3 0 64-28.7 64-64s-28.7-64-64-64H384V336z';
+var svgPathData = 'M400 160h-20.9c7.2-12.4 6-28.3-4.6-39L295 41.5c-6.3-6.3-14.7-9.5-23-9.5s-16.6 3.2-23 9.5l-27.4 27.4C217 57 205.6 48.5 192 48.5H64c-17.7 0-32 14.3-32 32V160c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.8 0 112-50.2 112-112s-50.2-112-112-112zM272 86.4l57.6 57.6-16 16h-83.1l-16-16L272 86.4zM80 96.5h96v18.1l-6.5 6.5c-10.6 10.6-11.8 26.5-4.6 39H80V96.5zM336 384c0 26.5-21.5 48-48 48H96c-26.5 0-48-21.5-48-48V208h48v56c0 13.3 10.7 24 24 24s24-10.7 24-24v-56h192v176zm64-48h-16V208h16c35.3 0 64 28.7 64 64s-28.7 64-64 64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

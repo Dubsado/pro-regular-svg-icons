@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'lamp-floor';
-var width = 640;
+var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e015';
-var svgPathData = 'M183.6 176H456.4L405.2 48H234.8L183.6 176zM194.3 20.1C199.1 8 210.9 0 224 0H416c13.1 0 24.9 8 29.7 20.1l64 160c3.9 9.9 2.7 21-3.2 29.8s-15.9 14.1-26.5 14.1H160c-10.6 0-20.5-5.3-26.5-14.1s-7.2-20-3.2-29.8l64-160zM216 464h80V256h48V464h80c13.3 0 24 10.7 24 24s-10.7 24-24 24H320 216c-13.3 0-24-10.7-24-24s10.7-24 24-24z';
+var svgPathData = 'M382,212.76l-71.13-192A31.63,31.63,0,0,0,281.23,0H102.77a31.64,31.64,0,0,0-29.6,20.76L2,212.76C-5.71,233.68,9.57,256,31.64,256H168.29V464H113c-21.06,0-40.72,13.89-46.91,33.12C63.68,504.53,69.9,512,77.59,512H306.4c7.7,0,13.92-7.47,11.54-14.88C311.75,477.89,292.09,464,271,464H215.71V256H352.36C374.43,256,389.71,233.68,382,212.76ZM54.45,208,113.73,48H270.27l59.28,160Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'chart-area';
 var width = 512;
 var height = 512;
-var aliases = ["area-chart"];
+var ligatures = [];
 var unicode = 'f1fe';
-var svgPathData = 'M48 56c0-13.3-10.7-24-24-24S0 42.7 0 56V408c0 39.8 32.2 72 72 72H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H72c-13.3 0-24-10.7-24-24V56zM286.1 225.9c9 9 21.2 14.1 33.9 14.1s24.9-5.1 33.9-14.1l27.3-27.3L432 257.8l0 78.2H144l0-92.1 80-80 62.1 62.1zM320 192l-33.9-33.9-39.4-39.4c-12.5-12.5-32.8-12.5-45.3 0l-91.3 91.3c-9 9-14.1 21.2-14.1 33.9V352c0 17.7 14.3 32 32 32H448c17.7 0 32-14.3 32-32V257.8c0-11.5-4.1-22.5-11.6-31.2l-62-72.3c-12.1-14.2-33.7-15-46.9-1.8l-5.6 5.6L320 192z';
+var svgPathData = 'M500 400c6.6 0 12 5.4 12 12v24c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v324h452zM372 128.7l-84 56-85.1-85.1c-5.5-5.5-14.8-4.4-18.8 2.3L96 256v96h384l-90.3-218.1c-3-6.9-11.5-9.4-17.7-5.2zM144 269.3l57.5-103.2 80.4 80.4c71.8-47.9 8.2-5.4 80.7-53.8L407.2 304H144v-34.7z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

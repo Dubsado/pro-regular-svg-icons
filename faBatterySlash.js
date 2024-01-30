@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'battery-slash';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f377';
-var svgPathData = 'M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7l-87.5-68.6C563.1 386 576 362.5 576 336V320c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32V176c0-44.2-35.8-80-80-80H154.8L38.8 5.1zM216 144H496c17.7 0 32 14.3 32 32V336c0 15.9-11.6 29.1-26.7 31.6L216 144zM345.2 368H112c-17.7 0-32-14.3-32-32V176c0-5.1 1.2-10 3.4-14.3l-38-30C36.9 144.4 32 159.6 32 176V336c0 44.2 35.8 80 80 80H406.2l-60.9-48z';
+var svgPathData = 'M36 3.51A16 16 0 0 0 13.51 6l-10 12.49A16 16 0 0 0 6 41l598 467.49a16 16 0 0 0 22.49-2.49l10-12.49A16 16 0 0 0 634 471zM616 160h-8v-16a48 48 0 0 0-48-48H232.24l61.39 48H560v64h32v96h-32v48.25l44.18 34.53A47.74 47.74 0 0 0 608 368v-16h8a24 24 0 0 0 24-24V184a24 24 0 0 0-24-24zM48 368V134.74l-32.79-25.63A47.74 47.74 0 0 0 0 144v224a48 48 0 0 0 48 48h359.76l-61.39-48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

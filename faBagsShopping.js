@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'bags-shopping';
 var width = 576;
 var height = 512;
-var aliases = [128717];
+var ligatures = [];
 var unicode = 'f847';
-var svgPathData = 'M176 96c0-26.5 21.5-48 48-48s48 21.5 48 48v64H176V96zm-48 64H64c-35.3 0-64 28.7-64 64V416c0 35.3 28.7 64 64 64h96V432H64c-8.8 0-16-7.2-16-16V224c0-8.8 7.2-16 16-16H384c8.8 0 16 7.2 16 16h48c0-35.3-28.7-64-64-64H320V96c0-53-43-96-96-96s-96 43-96 96v64zm128 96c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64H256zm64 80v16c0 35.3 28.7 64 64 64s64-28.7 64-64V336c0-8.8 7.2-16 16-16s16 7.2 16 16v16c0 53-43 96-96 96s-96-43-96-96V336c0-8.8 7.2-16 16-16s16 7.2 16 16z';
+var svgPathData = 'M272 240a16 16 0 0 0 16 16h16a16 16 0 0 0 16-16v-32h80v48h48v-64a32 32 0 0 0-32-32h-96V96a96 96 0 0 0-192 0v64H32a32 32 0 0 0-32 32v256a32 32 0 0 0 32 32h128v-48H48V208h80v32a16 16 0 0 0 16 16h16a16 16 0 0 0 16-16v-32h96zm-96-80V96a48 48 0 0 1 96 0v64zm368 128H224a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h320a32 32 0 0 0 32-32V320a32 32 0 0 0-32-32zm-112 48a48 48 0 0 1-96 0zm96 128H240V336h48.3c1.57 47.4 35.8 89.12 83.07 95.19A96.12 96.12 0 0 0 480 336h48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

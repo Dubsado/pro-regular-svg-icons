@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'siren';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e02d';
-var svgPathData = 'M345.6 304H394L375 152.1C371 120 343.8 96 311.5 96h-175C104.2 96 77 120 73 152.1L54 304h48.4l18.2-146c1-8 7.8-14 15.9-14h175c8.1 0 14.9 6 15.9 14l18.2 146zm-165.5 0l11.8-94c1.1-8.8-5.1-16.8-13.9-17.9s-16.8 5.1-17.9 13.9l-12.2 98h32.2zM48 384H400v48H48l0-48zM0 384v48c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V384c0-26.5-21.5-48-48-48H48c-26.5 0-48 21.5-48 48z';
+var svgPathData = 'M416,336,393.88,127.07A72,72,0,0,0,322.44,64H125.56a72,72,0,0,0-71.44,63.07L32,336h0A32,32,0,0,0,0,368v80a32,32,0,0,0,32,32H416a32,32,0,0,0,32-32V368A32,32,0,0,0,416,336ZM101.75,133a24,24,0,0,1,23.81-21H322.44a24,24,0,0,1,23.82,21l21.37,203H156.09l19.84-180.82a8,8,0,0,0-6.87-9l-15.86-2.13a7.79,7.79,0,0,0-1.07-.07,8,8,0,0,0-7.92,6.94L123.8,336H80.37ZM400,432H48V384H400Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

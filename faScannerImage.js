@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'scanner-image';
-var width = 576;
+var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8f3';
-var svgPathData = 'M66.7 34.5c-11.9-5.9-26.3-1.1-32.2 10.7s-1.1 26.3 10.7 32.2L466.3 288H64c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V384 352v-8.4c0-33.3-18.8-63.8-48.6-78.7L66.7 34.5zM528 352v32 32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V352c0-8.8 7.2-16 16-16H512c8.8 0 16 7.2 16 16zM120 384a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z';
+var svgPathData = 'M168 408h32a8 8 0 0 0 8-8v-32a8 8 0 0 0-8-8h-32a8 8 0 0 0-8 8v32a8 8 0 0 0 8 8zm-80 0h32a8 8 0 0 0 8-8v-32a8 8 0 0 0-8-8H88a8 8 0 0 0-8 8v32a8 8 0 0 0 8 8zm550.89-120c-2.69-21-16.51-39.19-37-46.11L26.25 32.85a15.75 15.75 0 0 0-5.12-.85A16 16 0 0 0 6 42.88L.85 58.07a16 16 0 0 0 10 20.28l575.7 209.06c.34.11.5.44.81.59H48a48 48 0 0 0-48 48v96a48 48 0 0 0 48 48h544a48 48 0 0 0 48-48V288zM592 432H48v-96h544z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

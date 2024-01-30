@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'refrigerator';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e026';
-var svgPathData = 'M288 48c26.5 0 48 21.5 48 48v64H288V120c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H48V96c0-26.5 21.5-48 48-48H288zM240 208V344c0 13.3 10.7 24 24 24s24-10.7 24-24V208h48V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V208H240zM96 0C43 0 0 43 0 96V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V96c0-53-43-96-96-96H96z';
+var svgPathData = 'M336,0H48A48,48,0,0,0,0,48V464a48,48,0,0,0,48,48H336a48,48,0,0,0,48-48V48A48,48,0,0,0,336,0Zm0,48V176H288V112a16,16,0,0,0-16-16H256a16,16,0,0,0-16,16v64H48V48ZM48,464V224H240V368a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V224h48V464Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

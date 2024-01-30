@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'toggle-on';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f205';
-var svgPathData = 'M192 112c-79.5 0-144 64.5-144 144s64.5 144 144 144H384c79.5 0 144-64.5 144-144s-64.5-144-144-144H192zM0 256C0 150 86 64 192 64H384c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256zm384-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z';
+var svgPathData = 'M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 336c-79.6 0-144-64.4-144-144s64.4-144 144-144 144 64.4 144 144-64.4 144-144 144z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

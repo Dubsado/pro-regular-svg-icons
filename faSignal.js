@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'signal';
 var width = 640;
 var height = 512;
-var aliases = [128246,"signal-5","signal-perfect"];
+var ligatures = [];
 var unicode = 'f012';
-var svgPathData = 'M576 0c13.3 0 24 10.7 24 24V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V24c0-13.3 10.7-24 24-24zM448 96c13.3 0 24 10.7 24 24V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V120c0-13.3 10.7-24 24-24zM320 192c13.3 0 24 10.7 24 24V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V216c0-13.3 10.7-24 24-24zM192 288c13.3 0 24 10.7 24 24V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V312c0-13.3 10.7-24 24-24zM64 384c13.3 0 24 10.7 24 24v80c0 13.3-10.7 24-24 24s-24-10.7-24-24V408c0-13.3 10.7-24 24-24z';
+var svgPathData = 'M208 288h-32c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM80 384H48c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-32c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-32c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM592 0h-32c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

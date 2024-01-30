@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'calculator';
-var width = 384;
+var width = 448;
 var height = 512;
-var aliases = [128425];
+var ligatures = [];
 var unicode = 'f1ec';
-var svgPathData = 'M336 176V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V176H336zm0-48H48V64c0-8.8 7.2-16 16-16H320c8.8 0 16 7.2 16 16v64zm48 0V64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64v64 24 24V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V176 152 128zM80 232a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 64a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM80 408c0 13.3 10.7 24 24 24h88c13.3 0 24-10.7 24-24s-10.7-24-24-24H104c-13.3 0-24 10.7-24 24zM192 208a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM168 320a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zM280 208a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM256 320a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 64a24 24 0 1 0 0 48 24 24 0 1 0 0-48z';
+var svgPathData = 'M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zm0 464H48V208h352v256zm0-304H48V48h352v112zM108.8 320h38.4c6.4 0 12.8-6.4 12.8-12.8v-38.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v38.4c0 6.4 6.4 12.8 12.8 12.8zm192 96h38.4c6.4 0 12.8-6.4 12.8-12.8V268.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h38.4c6.4 0 12.8-6.4 12.8-12.8v-38.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v38.4c0 6.4 6.4 12.8 12.8 12.8zm96-96h38.4c6.4 0 12.8-6.4 12.8-12.8v-38.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v38.4c0 6.4 6.4 12.8 12.8 12.8zm0 96h38.4c6.4 0 12.8-6.4 12.8-12.8v-38.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v38.4c0 6.4 6.4 12.8 12.8 12.8z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

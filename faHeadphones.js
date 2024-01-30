@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'headphones';
 var width = 512;
 var height = 512;
-var aliases = [127911];
+var ligatures = [];
 var unicode = 'f025';
-var svgPathData = 'M49.6 262C62.4 159.4 149.9 80 256 80s193.6 79.4 206.4 182c-9.4-3.9-19.6-6-30.4-6c-26.5 0-48 21.5-48 48V432c0 26.5 21.5 48 48 48c44.2 0 80-35.8 80-80V368 336 288C512 146.6 397.4 32 256 32S0 146.6 0 288v48 32 32c0 44.2 35.8 80 80 80c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48c-10.8 0-21 2.1-30.4 6zM48 336c0-17.7 14.3-32 32-32V432c-17.7 0-32-14.3-32-32V368 336zm416 0v32 32c0 17.7-14.3 32-32 32V304c17.7 0 32 14.3 32 32z';
+var svgPathData = 'M256 32C114.52 32 0 146.497 0 288v49.714a24.001 24.001 0 0 0 12.319 20.966l19.702 10.977C32.908 430.748 82.698 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-40.744 0-76.402 21.758-96 54.287V288c0-114.691 93.309-208 208-208s208 93.309 208 208v22.287C444.402 277.758 408.744 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c61.302 0 111.092-49.252 111.979-110.344l19.702-10.977A24.001 24.001 0 0 0 512 337.713V288c0-141.48-114.497-256-256-256zM144 304v128c-35.29 0-64-28.71-64-64s28.71-64 64-64zm224 128V304c35.29 0 64 28.71 64 64s-28.71 64-64 64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'pallet';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f482';
-var svgPathData = 'M24 320c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v96H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H88 320 552h64c13.3 0 24-10.7 24-24s-10.7-24-24-24H576V368h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H552 320 88 24zm88 48H296v96H112V368zm232 0H528v96H344V368z';
+var svgPathData = 'M144 288h352c8.8 0 16-7.2 16-16V16c0-8.8-7.2-16-16-16H144c-8.8 0-16 7.2-16 16v256c0 8.8 7.2 16 16 16zm32-240h80v80l64-32 64 32V48h80v192H176V48zm448 320c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16H16c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h48v96H16c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h608c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16h-48v-96h48zm-448 96h-64v-96h64v96zm240 0H224v-96h192v96zm112 0h-64v-96h64v96z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

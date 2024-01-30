@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'coffin-cross';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'e051';
-var svgPathData = 'M140.1 464H243.9l91.9-318.2L250.2 48H133.8L48.2 145.8 140.1 464zM11.5 114.9l91-104C108.5 4 117.3 0 126.5 0h131c9.2 0 18 4 24.1 10.9l91 104c7.4 8.5 11.5 19.3 11.5 30.6c0 4.4-.6 8.7-1.8 12.9L286.7 488.9c-4 13.7-16.5 23.1-30.7 23.1H128.1c-14.3 0-26.8-9.4-30.7-23.1L1.8 158.3C.6 154.1 0 149.8 0 145.4c0-11.2 4.1-22.1 11.5-30.6zM216 120v40h48c13.3 0 24 10.7 24 24s-10.7 24-24 24H216V328c0 13.3-10.7 24-24 24s-24-10.7-24-24V208H120c-13.3 0-24-10.7-24-24s10.7-24 24-24h48V120c0-13.3 10.7-24 24-24s24 10.7 24 24z';
+var svgPathData = 'M374.45 115.19L266.71 9.37c-6.11-6-14.4-9.37-23.04-9.37H140.33c-8.64 0-16.93 3.37-23.04 9.37L9.55 115.19C1.46 123.14-1.8 134.67.98 145.58l87.11 342.18C91.71 502.01 104.75 512 119.7 512h144.62c14.95 0 27.98-9.99 31.61-24.24l87.11-342.18c2.76-10.91-.49-22.44-8.59-30.39zM252.44 464H131.56L49.82 142.91 146.46 48h91.08l96.64 94.91L252.44 464zM216 112c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v48h-56c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h56v128c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V208h56c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-48z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

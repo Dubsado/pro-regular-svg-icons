@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'square-full';
 var width = 512;
 var height = 512;
-var aliases = [128997,128998,128999,129000,129001,129002,129003,11035,11036];
+var ligatures = [];
 var unicode = 'f45c';
-var svgPathData = 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z';
+var svgPathData = 'M0 0v512h512V0H0zm464 464H48V48h416v416z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

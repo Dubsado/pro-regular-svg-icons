@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'bed-bunk';
 var width = 576;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f8f8';
-var svgPathData = 'M24 0C37.3 0 48 10.7 48 24V160H256V40c0-22.1 17.9-40 40-40H456c66.3 0 120 53.7 120 120v64 96V439.7 488c0 13.3-10.7 24-24 24s-24-10.7-24-24V463.7H280 48V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V439.7 184 24C0 10.7 10.7 0 24 0zM256 415.7V296c0-22.1 17.9-40 40-40H528V208H280 48V415.7H256zM528 160V120c0-39.8-32.2-72-72-72H304V160H528zm0 144H304V415.7H528V304zM96 328a56 56 0 1 1 112 0A56 56 0 1 1 96 328zM152 16a56 56 0 1 1 0 112 56 56 0 1 1 0-112z';
+var svgPathData = 'M152,144A72,72,0,1,0,80,72,72,72,0,0,0,152,144Zm0-96a24,24,0,1,1-24,24A24,24,0,0,1,152,48ZM464,0H272a16,16,0,0,0-16,16V160H48V16A16,16,0,0,0,32,0H16A16,16,0,0,0,0,16V496a16,16,0,0,0,16,16H32a16,16,0,0,0,16-16V464H528v32a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V128C576,50.14,525.88,0,464,0Zm64,416H304V304H464a64.07,64.07,0,0,1,64,64Zm0-139.74A111.31,111.31,0,0,0,464,256H272a16,16,0,0,0-16,16V416H48V208H528ZM528,160H304V48H464a64.07,64.07,0,0,1,64,64ZM152,400a72,72,0,1,0-72-72A72,72,0,0,0,152,400Zm0-96a24,24,0,1,1-24,24A24,24,0,0,1,152,304Z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

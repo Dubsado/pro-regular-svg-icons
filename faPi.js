@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'pi';
 var width = 448;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f67e';
-var svgPathData = 'M24 64C10.7 64 0 74.7 0 88s10.7 24 24 24h88V277.4c0 44.9-11.4 89-33.2 128.2L75 412.3c-6.4 11.6-2.3 26.2 9.3 32.6s26.2 2.3 32.6-9.3l3.8-6.8c25.8-46.4 39.3-98.5 39.3-151.5V112H304V374.6c0 40.6 32.9 73.4 73.4 73.4c27.8 0 53.2-15.7 65.7-40.6l2.3-4.7c5.9-11.9 1.1-26.3-10.7-32.2s-26.3-1.1-32.2 10.7l-2.3 4.7c-4.3 8.6-13.1 14.1-22.8 14.1c-14.1 0-25.4-11.4-25.4-25.4V112h72c13.3 0 24-10.7 24-24s-10.7-24-24-24H24z';
+var svgPathData = 'M436 96H49.96c-8.49 0-16.63 3.37-22.63 9.37L2.36 130.34C-2.68 135.38.89 144 8.02 144H144v137.79c0 48.12-17.34 93.57-49.1 129.21-4.26 4.78-4.31 11.89.21 16.42l16.99 16.99c4.83 4.83 12.94 4.82 17.52-.25C169.95 399.53 192 342.35 192 281.79V144h96v235.9c0 28.48 16.96 55.51 43.97 64.53 29.62 9.89 60.23-1.42 76.37-25.68l23.63-35.45c3.68-5.52 2.19-12.96-3.33-16.64l-19.97-13.31c-5.52-3.68-12.97-2.19-16.64 3.33l-23.62 35.46a17.644 17.644 0 0 1-14.72 7.86c-9.75 0-17.69-7.94-17.69-17.69V144h100c6.63 0 12-5.37 12-12v-24c0-6.63-5.37-12-12-12z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

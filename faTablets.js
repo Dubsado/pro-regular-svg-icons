@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'tablets';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f490';
-var svgPathData = 'M608.8 254.9c-4.7 6.4-9.9 12.5-15.7 18.2s-11.9 11-18.2 15.7c-62.6 46.2-151.3 41-208-15.7s-62-145.4-15.7-208c4.7-6.4 9.9-12.5 15.7-18.2s11.9-11 18.2-15.7c62.6-46.2 151.3-41 208 15.7s62 145.4 15.7 208zM559.2 80.8c-37.9-37.9-96.2-43-139.6-15.1L574.3 220.4c27.8-43.4 22.8-101.7-15.1-139.6zM540.4 254.3L385.7 99.6c-27.8 43.4-22.8 101.7 15.1 139.6s96.2 43 139.6 15.1zM318.2 328c1.2 7.8 1.8 15.8 1.8 24s-.6 16.2-1.8 24c-11.6 77-78 136-158.2 136S13.4 453 1.8 376C.6 368.2 0 360.2 0 352s.6-16.2 1.8-24c11.6-77 78-136 158.2-136s146.6 59 158.2 136zM160 240c-53.6 0-98.4 37.7-109.4 88H269.4c-11-50.3-55.8-88-109.4-88zm0 224c53.6 0 98.4-37.7 109.4-88H50.6c11 50.3 55.8 88 109.4 88z';
+var svgPathData = 'M160 192C71.6 192 0 263.6 0 352s71.6 160 160 160 160-71.6 160-160-71.6-160-160-160zM50.7 376h218.5c-25.6 117-192.8 116.7-218.5 0zm0-48c25.7-116.9 192.9-116.9 218.5 0H50.7zM593.1 46.9c-62.4-62.4-163.8-62.5-226.3 0s-62.5 163.8 0 226.3c62.4 62.4 163.8 62.5 226.3 0s62.5-163.9 0-226.3zM385.8 99.7l154.5 154.5C439.7 318.8 321 200.5 385.8 99.7zm188.4 120.6L419.7 65.8C520.3 1.1 639 119.5 574.2 220.3z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

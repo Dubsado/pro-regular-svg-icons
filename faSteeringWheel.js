@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'steering-wheel';
-var width = 512;
+var width = 496;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f622';
-var svgPathData = 'M232 369v93.6C133.7 451.3 56.2 371.4 48.6 272H156.4l74.3 95.5c.4 .5 .8 1 1.3 1.5zm48 0c.4-.5 .9-1 1.3-1.5L355.6 272H463.4c-7.6 99.4-85 179.3-183.4 190.6V369zm72-145l-7.2-14.3c-5.4-10.8-16.5-17.7-28.6-17.7H195.8c-12.1 0-23.2 6.8-28.6 17.7L160 224H50.4C65.8 124.3 152 48 256 48s190.2 76.3 205.6 176H352zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z';
+var svgPathData = 'M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 48c102.14 0 186.51 77.02 198.42 176h-84.65c-12.85-32.71-44.55-56-81.77-56h-64c-37.22 0-68.92 23.29-81.77 56H49.58C61.5 133.02 145.86 56 248 56zm0 270.05l-71-70.98c4.06-17.77 20-31.06 39-31.06h64c19 0 34.94 13.3 39 31.06l-71 70.98zM49.58 280h84.48L224 369.93v84.49C132.9 443.45 60.55 371.1 49.58 280zM272 454.42v-84.49L361.94 280h84.48C435.46 371.1 363.1 443.45 272 454.42z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

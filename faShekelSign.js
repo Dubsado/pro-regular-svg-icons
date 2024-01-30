@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'shekel-sign';
-var width = 448;
+var width = 384;
 var height = 512;
-var aliases = [8362,"ils","shekel","sheqel","sheqel-sign"];
+var ligatures = [];
 var unicode = 'f20b';
-var svgPathData = 'M40 32C26.7 32 16 42.7 16 56V456c0 13.3 10.7 24 24 24s24-10.7 24-24V80H184c39.8 0 72 32.2 72 72V336c0 13.3 10.7 24 24 24s24-10.7 24-24V152c0-66.3-53.7-120-120-120H40zM312 480c66.3 0 120-53.7 120-120V56c0-13.3-10.7-24-24-24s-24 10.7-24 24V360c0 39.8-32.2 72-72 72H192V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V456c0 13.3 10.7 24 24 24H312z';
+var svgPathData = 'M216 160v192c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V160c0-70.69-57.31-128-128-128H24C10.75 32 0 42.74 0 56v408c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V96h88c35.35 0 64 28.65 64 64zM368 32h-32c-8.84 0-16 7.16-16 16v304c0 35.35-28.65 64-64 64h-88V160c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v296c0 13.25 10.75 24 24 24h128c70.69 0 128-57.31 128-128V48c0-8.84-7.16-16-16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

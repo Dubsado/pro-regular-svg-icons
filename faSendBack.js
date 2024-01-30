@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'send-back';
 var width = 640;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f87e';
-var svgPathData = 'M192 48c8.8 0 16 7.2 16 16V192c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H192zM64 0C28.7 0 0 28.7 0 64V192c0 35.3 28.7 64 64 64H192c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM576 304c8.8 0 16 7.2 16 16V448c0 8.8-7.2 16-16 16H448c-8.8 0-16-7.2-16-16V320c0-8.8 7.2-16 16-16H576zM448 256c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H576c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64H448zM160 288v64c0 35.3 28.7 64 64 64H352V320c0-53 43-96 96-96h32V160c0-35.3-28.7-64-64-64H288v96c0 53-43 96-96 96H160z';
+var svgPathData = 'M256 208V48a48 48 0 0 0-48-48H48A48 48 0 0 0 0 48v160a48 48 0 0 0 48 48h160a48 48 0 0 0 48-48zM48 48h160v160H48zm384 176h48v-80a48 48 0 0 0-48-48H288v48h144zM96 160h64V96H96zm496 96H432a48 48 0 0 0-48 48v160a48 48 0 0 0 48 48h160a48 48 0 0 0 48-48V304a48 48 0 0 0-48-48zm0 208H432V304h160zM208 288h-48v80a48 48 0 0 0 48 48h144v-48H208zm336 64h-64v64h64z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

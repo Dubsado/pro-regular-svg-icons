@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'file-chart-pie';
 var width = 384;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f65a';
-var svgPathData = 'M320 464c8.8 0 16-7.2 16-16V160H256c-17.7 0-32-14.3-32-32V48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320zM0 64C0 28.7 28.7 0 64 0H229.5c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM160 240.1c8.7-1.5 16 5.8 16 14.7V320c0 8.8 7.2 16 16 16h64c8.9 0 16.3 7.4 14.6 16.1c-.5 2.5-1 5-1.7 7.4c-13.7 51.2-66.4 81.6-117.6 67.9s-81.6-66.4-67.9-117.6c10-37.4 40.8-63.7 76.5-69.8zm63.9-30.8c40.3 6.7 72 38.5 78.8 78.8c1.5 8.7-5.8 15.9-14.7 15.9H224c-8.8 0-16-7.2-16-16V224c0-8.8 7.2-16.1 15.9-14.7z';
+var svgPathData = 'M369.83 97.98L285.94 14.1c-9-9-21.2-14.1-33.89-14.1H47.99C21.5.1 0 21.6 0 48.09v415.92C0 490.5 21.5 512 47.99 512h287.94c26.5 0 48.07-21.5 48.07-47.99V131.97c0-12.69-5.17-24.99-14.17-33.99zM255.95 51.99l76.09 76.08h-76.09V51.99zM336 464.01H47.99V48.09h159.97v103.98c0 13.3 10.7 23.99 24 23.99H336v287.95zm-176-206.4c-36.52 7.41-64 39.68-64 78.39 0 44.18 35.82 80 80 80 38.7 0 70.97-27.49 78.39-64H160v-94.39zm32-32V320h94.39a80.321 80.321 0 0 0 1.61-16c0-44.18-35.82-80-80-80-5.48 0-10.83.56-16 1.61z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

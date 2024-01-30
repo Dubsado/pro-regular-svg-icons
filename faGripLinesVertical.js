@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'far';
 var iconName = 'grip-lines-vertical';
-var width = 192;
+var width = 256;
 var height = 512;
-var aliases = [];
+var ligatures = [];
 var unicode = 'f7a5';
-var svgPathData = 'M32 32C18.7 32 8 42.7 8 56V456c0 13.3 10.7 24 24 24s24-10.7 24-24V56c0-13.3-10.7-24-24-24zm128 0c-13.3 0-24 10.7-24 24V456c0 13.3 10.7 24 24 24s24-10.7 24-24V56c0-13.3-10.7-24-24-24z';
+var svgPathData = 'M96 464V48c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16v416c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16zm112 0V48c0-8.8-7.2-16-16-16h-16c-8.8 0-16 7.2-16 16v416c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;

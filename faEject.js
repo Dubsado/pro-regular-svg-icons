@@ -4,9 +4,9 @@ var prefix = 'far';
 var iconName = 'eject';
 var width = 448;
 var height = 512;
-var aliases = [9167];
+var ligatures = [];
 var unicode = 'f052';
-var svgPathData = 'M4.1 323.3c-7.7-17.4-4.3-37.7 8.6-51.8l176-192C197.7 69.6 210.5 64 224 64s26.3 5.6 35.4 15.6l176 192c12.9 14 16.2 34.3 8.6 51.8S419 352 400 352H48c-19 0-36.3-11.2-43.9-28.7zM48 304l352 0L224 112 48 304zM24 400H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24z';
+var svgPathData = 'M400 320H48c-26.51 0-48 21.49-48 48v64c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-64c0-26.51-21.49-48-48-48zm0 112H48v-64h352v64zM48.048 304h351.895c42.637 0 64.151-51.731 33.941-81.941l-175.943-176c-18.745-18.745-49.137-18.746-67.882 0l-175.952 176C-16.042 252.208 5.325 304 48.048 304zM224 80l176 176H48L224 80z';
 
 exports.definition = {
   prefix: prefix,
@@ -14,7 +14,7 @@ exports.definition = {
   icon: [
     width,
     height,
-    aliases,
+    ligatures,
     unicode,
     svgPathData
   ]};
@@ -24,7 +24,6 @@ exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
-exports.ligatures = aliases;
+exports.ligatures = ligatures;
 exports.unicode = unicode;
 exports.svgPathData = svgPathData;
-exports.aliases = aliases;
